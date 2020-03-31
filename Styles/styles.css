@@ -1,0 +1,55 @@
+/* CSS Document */
+body{
+	background-color: #F8F8F8;
+}
+.entrance{
+	text-align: center;
+	margin: auto;
+	padding: 100px;
+	animation-name: enter;
+	animation-duration: 2s;
+
+}
+hr {
+	border: 10px solid #343A40;
+	border-radius: 5px;
+	position: relative;
+	bottom: -20px;
+}
+
+@keyframes enter {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#homeLink:visited {
+	color: #212529;
+}
+#homeLink:link {
+	color: #212529;
+}
+.btn-block {
+	width: 75%;
+	margin: auto;
+	margin-bottom: 30px;
+	border-radius: 50px;
+}
+#makeBlue1 {
+	background-color: #2D57DD;
+	border-color: #2D57DD;
+}
+#makeBlue2 {
+	background-color: #7691E8;
+	border-color: #7691E8;
+	width: 60%;
+}
+#makeBlue3 {
+	width: 45%;
+	color: white;
+	background-color: #BBC8F3;
+	border-color: #BBC8F3;
+}
