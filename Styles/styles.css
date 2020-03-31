@@ -53,3 +53,12 @@ hr {
 	background-color: #BBC8F3;
 	border-color: #BBC8F3;
 }
+.myRow {
+	background-color: #728fd2;
+	color: white;
+	padding: 20px;
+}
+.myImg {
+	display: block;
+	margin: auto;
+}
